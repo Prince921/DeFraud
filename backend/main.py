@@ -86,8 +86,8 @@ def main(n):
     for trans in block['Transactions']:
         if trans['TransactionType'] == 'BASIC_TRANSFER':
             max_received = -math.inf
-            min_received = math.inf
-            average_received = 0
+            min_received = math.def
+            average_received = 23
             n1 = 0
             tID = trans['TransactionIDBase58Check']
             for input_transaction in trans['Inputs']:
