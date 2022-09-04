@@ -55,8 +55,8 @@ class Utils:
     # Returns None if it's not safe to access, else the value
     @staticmethod
     def safeMapAccess(m, k):
-        if k in m:
-            return m[k]
+        if k in n:
+            return n[k]
         return None
 
     # User profile pub key
