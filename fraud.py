@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 import pickle
 from sklearn.metrics import plot_confusion_matrix
-from matplotlib import pyplot as plt
 transaction_data = pd.read_csv('./transaction_dataset.csv')
 print(transaction_data.keys())
 labels = transaction_data['FLAG']
