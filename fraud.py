@@ -8,6 +8,8 @@ from sklearn.metrics import plot_confusion_matrix
 transaction_data = pd.read_csv('./transaction_dataset.csv')
 print(transaction_data.keys())
 labels = transaction_data['FLAG']
+y = clf.predict(test_features)
+y_true = test_targets
 features = ['Sent tnx',\
     'Received Tnx',\
     'min value received',\
