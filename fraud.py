@@ -21,7 +21,7 @@ features = ['Sent tnx',\
     'total Ether sent',\
     'total ether received',\
     'total ether balance'
-    ]
+    
 data = ['FLAG',\
     'Sent tnx',\
     'Received Tnx',\
